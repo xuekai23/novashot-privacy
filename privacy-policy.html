@@ -1,29 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Policy - Novashot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>隐私政策 | Privacy Policy</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+      font-family: Arial, Helvetica, "Microsoft YaHei", sans-serif;
+      margin: 0;
+      padding: 0;
       line-height: 1.6;
+      background-color: #f9f9f9;
       color: #333;
     }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+    }
+    h1, h2 {
+      color: #0066cc;
+    }
     h1 {
-      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h2 {
+      border-left: 4px solid #0066cc;
+      padding-left: 10px;
+      margin-top: 30px;
+    }
+    p {
+      margin: 10px 0;
+    }
+    .lang-toggle {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    button {
+      margin: 0 5px;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      background: #0066cc;
+      color: #fff;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #004999;
+    }
+    .cn, .en {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Novashot (“we”, “us”, or “our”) respects your privacy.</p>
-  <p>We do not collect, or share any personal data through this app, except as necessary to operate its core functions.</p>
-  <p>This app may request permissions to access Bluetooth and device storage solely to control the Novashot device.</p>
-  <p>We do not sell your data to third parties.</p>
-  <p>If you have questions, please contact: support@novashot.net</p>
+  <div class="container">
+    <h1>隐私政策 | Privacy Policy</h1>
+    
+    <!-- 语言切换按钮 -->
+    <div class="lang-toggle">
+      <button onclick="showLang('cn')">中文</button>
+      <button onclick="showLang('en')">English</button>
+    </div>
+    
+    <!-- 中文内容 -->
+    <div id="cn" class="cn active">
+      <h2>一、引言</h2>
+      <p>1. 本隐私政策适用于我们通过网球发球机智能设备APP收集、使用、存储和共享您的个人信息的活动。</p>
+      <p>2. 我们致力于保护您的隐私，会严格遵守相关法律法规，采取合理措施保护您的个人信息安全。</p>
+
+      <h2>二、个人信息收集</h2>
+      <p>1. 注册登录信息：当您注册账号时，我们收集您的邮箱地址、设置的用户名和密码，用于账号创建与身份验证。</p>
+      <p>2. 设备连接信息：为使APP与网球发球机设备连接，我们收集设备的MAC地址、蓝牙信息、IP地址，以识别和连接设备。</p>
+      <p>3. 使用数据：在您使用APP过程中，收集您对发球机的操作记录，如发球数量、速度等，用于分析您的使用习惯，优化服务。</p>
+      <p>4. 位置信息：若您开启位置权限，我们会收集大致位置信息，用于提供基于位置的个性化服务，如附近的网球场地推荐。</p>
+      <p>5. 第三方SDK信息：APP中某些功能可能依赖第三方SDK，如支付功能使用的第三方支付SDK，会收集必要信息以完成支付流程，具体收集信息以第三方SDK隐私政策为准。</p>
+
+      <h2>三、个人信息使用</h2>
+      <p>1. 用于提供、维护和改进APP及相关服务，如根据您的使用数据优化发球机的性能和功能设置。</p>
+      <p>2. 向您发送服务通知、更新信息、营销推广内容（若您同意接收）。</p>
+      <p>3. 进行数据分析和研究，以提升用户体验、开发新功能和服务。</p>
+
+      <h2>四、个人信息存储</h2>
+      <p>1. 我们将在实现收集目的所需的最短时间内存储您的个人信息，法律法规另有规定的除外。</p>
+      <p>2. 个人信息存储在安全的服务器上，采取加密、访问控制等安全措施防止数据泄露。</p>
+
+      <h2>五、个人信息共享、转让与披露</h2>
+      <p>1. 共享：仅在必要情况下，向关联公司、合作伙伴（如设备制造商、云服务提供商）共享您的个人信息，且要求他们遵守严格的保密义务。</p>
+      <p>2. 转让：不会将您的个人信息转让给其他公司、组织或个人，除非获得您明确同意，或因公司合并、分立、收购等法律规定的情形。</p>
+      <p>3. 披露：在法律要求、司法程序需要、保护我们的合法权益或执行服务协议时，可能会披露您的个人信息。</p>
+
+      <h2>六、您的权利</h2>
+      <p>1. 访问权：您有权访问我们持有的您的个人信息，可通过APP内设置或联系我们获取。</p>
+      <p>2. 更正权：若发现个人信息有误，可要求我们更正。</p>
+      <p>3. 删除权：在符合法律规定的情况下，可要求删除您的个人信息。</p>
+      <p>4. 撤回同意权：您有权随时撤回对某些个人信息收集和使用的同意，但可能影响相关服务的使用。</p>
+      <p>5. 注销账号权：您可在APP内申请注销账号，我们将在规定时间内处理并删除相关信息。</p>
+
+      <h2>七、儿童隐私保护</h2>
+      <p>1. 本APP不面向3岁以下儿童，不会故意收集儿童个人信息。</p>
+      <p>2. 若发现收集到儿童个人信息，将立即删除。</p>
+
+      <h2>八、隐私政策更新</h2>
+      <p>1. 我们可能根据法律法规变化、业务调整等原因更新隐私政策，更新后会在APP内显著位置通知您。</p>
+      <p>2. 您继续使用APP即视为同意更新后的隐私政策。</p>
+
+      <h2>九、联系我们</h2>
+      <p>公司名称：深圳市乐哇运动科技有限公司<br>
+      公司地址：深圳市光明区凤凰街道凤凰社区汇通路7号万和科技大厦A栋十六层<br>
+      邮箱：Supports@novashot.net</p>
+    </div>
+    
+    <!-- 英文内容 -->
+    <div id="en" class="en">
+      <h2>I. Introduction</h2>
+      <p>1. This Privacy Policy applies to our activities involving the collection, use, storage, and sharing of your personal information through the Tennis Ball Machine Smart Device APP.</p>
+      <p>2. We are committed to protecting your privacy and strictly comply with relevant laws and regulations, taking reasonable measures to safeguard the security of your personal information.</p>
+
+      <h2>II. Personal Information Collection</h2>
+      <p>1. Registration and Login Information: When you register an account, we collect your email address, chosen username, and password to create and verify your account.</p>
+      <p>2. Device Connection Information: To enable the APP to connect with the tennis ball machine device, we collect the device’s MAC address, Bluetooth information, and IP address for identification and connection purposes.</p>
+      <p>3. Usage Data: During your use of the APP, we collect your operation records of the ball machine, such as the number of serves and speed, to analyze your usage habits and optimize our services.</p>
+      <p>4. Location Information: If you enable location permissions, we will collect approximate location information to provide location-based personalized services, such as recommendations for nearby tennis courts.</p>
+      <p>5. Third-Party SDK Information: Certain features of the APP may rely on third-party SDKs, such as payment SDKs used for payment functions. These SDKs may collect necessary information to complete the payment process. The specific information collected is subject to the third-party SDK’s privacy policy.</p>
+
+      <h2>III. Personal Information Use</h2>
+      <p>1. To provide, maintain, and improve the APP and related services, such as optimizing the performance and functional settings of the ball machine based on your usage data.</p>
+      <p>2. To send you service notifications, updates, and marketing promotions (if you have consented to receive them).</p>
+      <p>3. To conduct data analysis and research to enhance user experience and develop new features and services.</p>
+
+      <h2>IV. Personal Information Storage</h2>
+      <p>1. We will store your personal information for the shortest time necessary to fulfill the purposes for which it was collected, unless otherwise required by laws and regulations.</p>
+      <p>2. Personal information is stored on secure servers with encryption, access controls, and other security measures to prevent data breaches.</p>
+
+      <h2>V. Personal Information Sharing, Transfer, and Disclosure</h2>
+      <p>1. Sharing: We may share your personal information with affiliated companies or partners (e.g., device manufacturers, cloud service providers) only when necessary and under strict confidentiality obligations.</p>
+      <p>2. Transfer: We will not transfer your personal information to other companies, organizations, or individuals unless we have obtained your explicit consent or are required to do so due to legal circumstances such as mergers, divisions, or acquisitions.</p>
+      <p>3. Disclosure: We may disclose your personal information when required by law, judicial proceedings, to protect our legitimate rights and interests, or to enforce service agreements.</p>
+
+      <h2>VI. Your Rights</h2>
+      <p>1. Right to Access: You have the right to access the personal information we hold about you, which can be obtained through the APP settings or by contacting us.</p>
+      <p>2. Right to Correction: If you find any inaccuracies in your personal information, you may request corrections.</p>
+      <p>3. Right to Deletion: You may request the deletion of your personal information in accordance with applicable laws and regulations.</p>
+      <p>4. Right to Withdraw Consent: You have the right to withdraw your consent to the collection and use of certain personal information at any time, though this may affect the use of related services.</p>
+      <p>5. Right to Account Deletion: You may request to delete your account through the APP, and we will process and delete the relevant information within a specified timeframe.</p>
+
+      <h2>VII. Children’s Privacy Protection</h2>
+      <p>1. This APP is not intended for children under the age of 3, and we do not knowingly collect personal information from children.</p>
+      <p>2. If we discover that we have collected personal information from a child, we will delete it immediately.</p>
+
+      <h2>VIII. Privacy Policy Updates</h2>
+      <p>1. We may update this Privacy Policy due to changes in laws and regulations or business adjustments. Any updates will be notified to you prominently within the APP.</p>
+      <p>2. Your continued use of the APP constitutes acceptance of the updated Privacy Policy.</p>
+
+      <h2>IX. Contact Us</h2>
+      <p>Company: Shenzhen Lewa Sports Technology Co., Ltd.<br>
+      Registered Address: 16th Floor, Building A, Wanhe Science and Technology Building, No.7 Huitong Road, Fenghuang Community, Fenghuang Street, Guangming District, Shenzhen.<br>
+      Email: Supports@novashot.net</p>
+    </div>
+    
+    <footer>
+      &copy; 2025 Shenzhen Lewa Sports Technology Co., Ltd. All Rights Reserved.
+    </footer>
+  </div>
+
+  <script>
+    function showLang(lang) {
+      document.querySelectorAll('.cn, .en').forEach(div => div.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
 </body>
 </html>
 
